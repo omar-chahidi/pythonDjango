@@ -1,0 +1,25 @@
+==========================================================================================================================
+Gjango :   
+    +  Création une application web avec Django
+    + Installation du framwork Django avec la commande "python -m pip install Django"
+        => l'installation ok si Successfully installed Django-3.2.7 asgiref-3.4.1 pytz-2021.1 sqlparse-0.4.2
+        => répertoire d'installation "C:\Users\Utilisateur\AppData\Local\Programs\Python\Python39\Scripts"
+    + Vérification de l'installation 
+        PS C:\Users\Utilisateur\OneDrive\Documents\python\pythonDjango> python
+        Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
+        Type "help", "copyright", "credits" or "license" for more information.
+        >>> import django
+        >>> print(django.get_version())
+        3.2.7
+        >>>>>> exit()
+    + Création d'un projet Django avec la commande 
+        django-admin startproject ociDjango
+    + Démarrer le serveur django avec la commande à partir du projet crée 
+        cd ociDjango
+        python .\manage.py runserver
+    + lancement de http://127.0.0.1:8000/
+    + Le projet "ociDjango" va contenir plusieurs applications 
+
+==========================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
+httpServer.py
